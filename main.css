@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("pictures/font-table.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.welcome {
+    color: rgba(214, 126, 53, 1);
+
+}
+#welcome1 {
+    font-size: 35px;
+}
+#welcome2 {
+    font-size: 60px;
+}
+.home-content {
+    padding-top: 322px;
+    padding: 175px;
+    max-width: 750px;
+    text-align: center;
+}
+.best-food {
+    color: white;
+    margin-top: 10px;
+}
+.button-menu button{
+    height: 40px;
+    width: 140px;
+    background-color: rgba(255, 115, 0, 0.873);
+    font-size: small;
+    color: white;
+    margin-top: 20px;
+}
+.line2, .line3 {
+    position: relative;
+    top:30px;
+}
+.blocks {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ gap: 20px;
+ position: relative;
+ top:-35px;
+}
+.block {
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.block-cheep-food p {
+    font-size:large
+}
+.blocks img {
+    margin-top: 40px;
+}
+.blocks p {
+    margin: 10px 10px 10px;
+    font-size: large;
+}
+.blocks span {
+    color: rgba(188, 144, 96, 1)
+}
+.new-color {
+    color: rgba(101, 99, 99, 1);
+
+}
+.full-history {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.best-food_top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.best-food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-history {
+    color:rgba(0, 0, 0, 1);
+    width: 550px;
+    height: 422px;
+    align-items: center;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+}
+.text-history h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.text-history span {
+    color:rgba(214, 126, 52, 1);
+}
+.text-history p{
+    color: #656363;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.abzats-history p {
+    width: 444px;
+    height: 217px;
+}
+.drinks-food-salad {
+    margin-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    gap:30px;
+
+}
+.drinks-food-salad p{
+    font-size: 20px;
+}
+.drinks-food-salad span {
+    font-size: 40px;
+}
+#font-pic {
+    z-index: 0;
+    width: 212px;
+    height: 164px;
+    top: 10px;
+    right: 200px;
+    position: absolute;
+}
+#second-pic {
+    z-index: 2;
+    Width:250px;
+    height:255px;
+    right: 150px;
+    top: 170px;
+    position: absolute;
+}
+#third-pic {
+    z-index:1;
+    Width:250px;
+    height:430px;
+    top: -33px;
+    right: 240px;
+    position: absolute;
+}
+#first-pic {
+    z-index: 3;
+    Width:230px;
+    height:300px;
+    position: absolute;
+    top: -10px;
+    right: 415px;
+}
+.history-pictures {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.bisness-lunch h2{
+    color: #D67E34;
+    font-size: 40px;
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.bisness-lunch p{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+.order-container button {
+    width: 157px;
+    height: 47px;
+}
+.order-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.table-order {
+    background-image: url("pictures/font-picture4.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+    height: 357px;
+}
+.dishes-allcontent {
+    padding-top: 50px;
+    color: black;
+}
+.dishes-h1 span{
+    color: #D67E34;
+}
+.dishes-h1 {
+    font-weight: 400; 
+    word-wrap: break-word;
+    font-size: 28px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.pizzapic {
+    width: 311px;
+    height: 406px;
+    
+}
+.littleham-pictures img {
+    width: 140px;
+    height: 110px;
+}
+.prises {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:150px;
+}
+.dishes-container {
+    display: flex;
+    justify-content:space-around;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+.littleham-pictures {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
